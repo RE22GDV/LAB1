@@ -32,13 +32,6 @@ int main()
     }
     while (gradenumber!=grademax+1);
     averageGrade = gradeall/gradenumber;
-    /*printf("Enter grade #1: ");
-    scanf("%d", &grade1);
-    printf("Enter grade #2:");
-    scanf("%d", &grade2);
-    printf("Enter grade #3:");
-    scanf("%d", &grade3);
-    */
     printf("Enter your age: ");
     scanf("%u", &age);
     system("clear");
