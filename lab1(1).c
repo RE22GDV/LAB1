@@ -13,7 +13,7 @@ int main()
     float admissionScore;
     int gradenumber = 1;
     int grade;
-    int gradeall;
+    int gradeall = 0;
     double averageGrade;
     unsigned int age;
     printf("%s %s Enter following data.\n", Name, LastName);
@@ -28,12 +28,12 @@ int main()
         gradenumber++;
     }
     while (gradenumber!=grademax+1);
-    averageGrade = gradeall/gradenumber;
+    averageGrade = gradeall/grademax;
     printf("Enter your age: ");
     scanf("%u", &age);
     printf("\n***************\n");
     printf("===============\n");
-    system ("cls");
+    system ("clear");
     printf("%s", University);
     printf("\n%s", Faculty);
     printf("\n%s", GroupName);
