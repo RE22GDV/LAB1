@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #define grademax 5
 #define Name "Mykola"
 #define LastName "Ivanenko"
@@ -9,7 +8,7 @@
 #define University "Igor Sikorsky Kyiv Polytechnic Institute"
 int main()
 {
-    printf("Dmitriy Gandzuk RE-22\n");
+    printf("Created by\n    Dmitriy Gandzuk RE-22\n");
     unsigned int semestr;
     float admissionScore;
     int gradenumber = 1;
@@ -17,8 +16,6 @@ int main()
     int gradeall;
     double averageGrade;
     unsigned int age;
-    printf("\n***************\n");
-    printf("===============\n");
     printf("%s %s Enter following data.\n", Name, LastName);
     printf("Enter semestr:");
     scanf("%u", &semestr);
@@ -34,7 +31,9 @@ int main()
     averageGrade = gradeall/gradenumber;
     printf("Enter your age: ");
     scanf("%u", &age);
-    system("clear");
+    printf("\n***************\n");
+    printf("===============\n");
+    system ("cls");
     printf("%s", University);
     printf("\n%s", Faculty);
     printf("\n%s", GroupName);
